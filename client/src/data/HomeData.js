@@ -2,40 +2,18 @@ export const menuItems = [
   {
     label: "About Us",
     href: "/about-us",
-    children: [
-      { label: "Introduction", href: "/about-us/introduction" },
-      { label: "Objective", href: "/about-us/objective" },
-      { label: "History", href: "/about-us/history" },
-    ],
   },
   {
     label: "Members",
     href: "/members",
-    children: [
-      { label: "Associates", href: "/members/associates" },
-      { label: "Executive Members", href: "/members/executive-members" },
-      { label: "General Members", href: "/members/general-members" },
-    ],
   },
   {
     label: "Projects",
     href: "/projects",
-    children: [
-      { label: "Ongoing Projects", href: "/projects/ongoing-projects" },
-      { label: "Future Projects", href: "/projects/future-projects" },
-      { label: "Past Projects", href: "/projects/past-projects" },
-      { label: "Donations", href: "/projects/donations" },
-    ],
   },
   {
     label: "Rolwaling Valley",
     href: "/rolwaling-valley",
-    children: [
-      { label: "Culture", href: "/rolwaling-valley/culture" },
-      { label: "Religious Sites", href: "/rolwaling-valley/religious-sites" },
-      { label: "Tourism", href: "/rolwaling-valley/tourism" },
-      { label: "Mountaineering", href: "/rolwaling-valley/mountaineering" },
-    ],
   },
   { label: "Contact Us", href: "/contact-us" },
 ];

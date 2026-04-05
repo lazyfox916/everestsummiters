@@ -8,31 +8,6 @@ import SectionLabel from "../ui/SectionLabel";
 export default function Footer() {
   return (
     <footer>
-      <section className="relative overflow-hidden py-20 lg:py-24">
-        <Image
-          src="https://everestsummitersclub.org.np/wp-content/uploads/2020/07/Beding-Village-scaled.jpg"
-          alt="Hire section"
-          fill
-          className="object-cover"
-          unoptimized
-        />
-        <div className="absolute inset-0 bg-[#000]/45" />
-        <div className="relative mx-auto max-w-[1240px] px-5 text-center lg:px-8">
-          <SectionLabel>We are available for Hire!</SectionLabel>
-          <h2 className="font-[Josefin_Sans] text-[2.4rem] leading-none text-white sm:text-[3.5rem] lg:text-[4.5rem]">
-            Contact us for:
-          </h2>
-          <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-white/90">
-            –Professional mountain guide <br />
-            –Sherpa <br />
-            –Trekking guide
-          </p>
-          <div className="mt-10">
-            <PrimaryButton href="/contact">Contact us</PrimaryButton>
-          </div>
-        </div>
-      </section>
-
       <section className="bg-[#00305f] text-white">
         <div className="mx-auto max-w-[1240px] px-5 py-16 lg:px-8 lg:py-20">
           <div className="mb-12">
