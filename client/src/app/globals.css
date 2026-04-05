@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #cc0033;
+  --color-accent: #0a83ce;
+  --color-ink: #1e73be;
+  --color-navy: #002873;
+
+  /* Astra header break-point is ~921px */
+  --breakpoint-lg: 921px;
+
+  --font-body: var(--font-montserrat);
+  --font-heading: var(--font-josefin);
+}
+
+@layer base {
+  html {
+    font-size: 87.5%;
+  }
+
+  body {
+    font-family: var(--font-body);
+    font-weight: 400;
+    color: var(--color-ink);
+    background: #ffffff;
+  }
+
+  a {
+    color: var(--color-brand);
+  }
+
+  a:hover,
+  a:focus {
+    color: var(--color-accent);
+  }
+
+  p {
+    margin-bottom: 0.5em;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-heading);
+    font-weight: 400;
+    line-height: 1;
+    color: var(--color-ink);
+  }
+
+  ::selection {
+    background-color: var(--color-accent);
+    color: #ffffff;
+  }
+}
