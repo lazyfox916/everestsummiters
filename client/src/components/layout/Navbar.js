@@ -183,7 +183,7 @@ export default function Navbar() {
                 href="/projects/donations"
                 className="w-full justify-center"
               >
-                donate
+                donatess
               </PrimaryButton>
             </div>
           </div>
